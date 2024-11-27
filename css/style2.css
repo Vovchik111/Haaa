@@ -283,9 +283,10 @@ p{
 @font-face {
   
     font-family: "fantasy"; 
-    src: url("fonts/FairyCottage") format("truetype")
-         url('fonts/FairyCottage.woff2') format('woff2'),
-         url('fonts/FairyCottage.woff') format('woff'),
-         url('fonts/FairyCottage.svg') format('svg'); 
-    font-weight: bold;
+    src: url("/fonts/FairyCottage") format("truetype")
+         url('/fonts/FairyCottage.woff2') format('woff2'),
+         url('/fonts/FairyCottage.woff') format('woff'),
+         url('/fonts/FairyCottage.svg') format('svg'); 
+    font-weight: normal;
+    font-style: cursive;
   } 
