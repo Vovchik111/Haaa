@@ -40,7 +40,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 body{
     background-color: pink;
-    font-family:"fantasy";
 }
 .button{
     width: 100px;
@@ -52,7 +51,7 @@ body{
     margin-left: -50px;
     text-align: center;
     font-size: 8px;
-    font-family: "fantasy", fantasy;
+    font-family: love;
     text-shadow: 0.5px 0.5px 0px black;
     color: rgb(255, 204, 212);
     border-radius: 10px;
@@ -71,7 +70,7 @@ body{
 p{
     color: white;
     font-size: 12px;
-    font-family: "fantasy", fantasy;
+    font-family: love;
     text-shadow:0.5px 0.5px 0px black;
     text-align: center;
 
@@ -283,11 +282,11 @@ p{
 }
 @font-face {
   
-    font-family: "fantasy"; 
-    src: url("/fonts/FairyCottage") format("truetype")
-         url('/fonts/FairyCottage.woff2') format('woff2'),
-         url('/fonts/FairyCottage.woff') format('woff'),
-         url('/fonts/FairyCottage.svg') format('svg'); 
+    font-family: 'love'; 
+    src: url("../fonts/20421") format("truetype")
+         url('../fonts/20421.woff2') format('woff2'),
+         url('../fonts/20421.woff') format('woff'),
+          
     font-weight: normal;
-    font-style: cursive;
+    font-style: normal;
   } 
